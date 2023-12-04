@@ -1,0 +1,64 @@
+
+.icon-bars::before{
+  content: '\f0c9';
+  font-weight: 300;
+}
+.icon-html::before{
+  content: '\f13b';
+  font-weight: 400;
+}
+.icon-css::before{
+  content: '\f38b';
+  font-weight: 400;
+}
+.icon-chevrone-left,
+.icon-chevrone-right{
+  position: relative;
+}
+
+
+.icon-chevrone-left::before,
+.icon-chevrone-right::before,
+.icon-chevrone-left::after,
+.icon-chevrone-right::after{
+  position: absolute;
+}
+.icon-chevrone-left::before{
+  content: '\f053';
+  font-weight: 900;
+}
+.icon-chevrone-left::after{
+  content: '\10f053';
+  font-weight: 900;
+}
+
+.icon-chevrone-right::before{
+  content: '\f054';
+  font-weight: 900;
+}
+.icon-chevrone-right::after{
+  content: '\10f054';
+  font-weight: 900;
+}
+
+
+.icon-book::before{
+  content: '\f02d';
+font-weight: 900;
+}
+.icon-address::before{
+content: '\f2b9';
+font-weight: 900;
+}
+.icon-instagram::before{
+content: '\f16d';
+font-weight: 600;
+}
+.icon-facebook::before{
+content: '\f39e';
+font-weight: 600;
+}
+.icon-telegram::before{
+content: '\f3fe';
+font-weight: 600;
+}
